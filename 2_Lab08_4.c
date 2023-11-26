@@ -4,7 +4,7 @@
 
 double arr[MAX_SIZE];
 
-// 정렬 함수 (오름차순)
+//
 void sort(double arr[], int size) {
     for (int i = 0; i < size - 1; i++) {
         for (int j = i + 1; j < size; j++) {
